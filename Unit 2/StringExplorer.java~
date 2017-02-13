@@ -1,0 +1,60 @@
+/**
+ *Jasmine Brown
+ * String Worksheet
+ */
+public class StringExplorer {
+  
+  
+  public static void main(String[] args) { 
+    //1
+    String hotel = "Hyatt";
+    System.out.println(hotel);
+    //3
+    String changeUp = hotel.replace('H','W');
+    System.out.println(changeUp);
+    //4&5
+    int len;
+    len = hotel.length();
+    System.out.println(len);
+    //6
+    String word  =hotel.substring(2,4);
+    System.out.println(word);
+    //7
+    int compare = hotel.compareTo("Hilton");
+    System.out.println(compare);
+    //8
+    String fullName = hotel.concat(" Regency");
+    System.out.println(fullName);
+    //9
+    fullName = fullName.toUpperCase();
+    System.out.println(fullName);
+    //10
+    char letter = hotel.charAt(1);
+    System.out.println(letter);
+    //11
+    hotel = hotel.toLowerCase();
+    System.out.println(hotel);
+    //12
+    String sub1 = fullName.substring(8);
+    System.out.println(sub1);
+    //13
+    boolean trueOrfalse = fullName.equals("hyatt regency");
+    System.out.println(trueOrfalse);
+    //14
+    boolean trueOrfalse2 = fullName.equalsIgnoreCase("hyatt regency");
+    System.out.println(trueOrfalse2);
+    //15
+    fullName = "Hyatt Regency";
+    System.out.println(fullName);
+    //16
+    int search = fullName.indexOf("ency");
+    System.out.println(search);
+    //17
+    int search2 = fullName.indexOf("e");
+    System.out.println(search2);
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

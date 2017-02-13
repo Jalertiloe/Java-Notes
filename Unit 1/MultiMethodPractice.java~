@@ -1,0 +1,14 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class MultiMethodPractice {
+  
+  
+  public static void main(String[] args) { 
+    
+  }
+  
+  public void message1(){
+    System.out.println("Hello There...this is message one.");
+  }
+}

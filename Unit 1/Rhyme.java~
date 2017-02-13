@@ -1,0 +1,17 @@
+/**
+ * Jasmine Brown
+ * Escape Sequences
+ * Auto Generated Java Class.
+ */
+public class Rhyme {
+  
+  
+  public static void main(String[] args) { 
+    System.out.println("\"Little \\\\Miss Muffet\\, sat on a \\\\\\tuffet\\,\nEating her curds and whey;");
+    System.out.println();
+    System.out.println();
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}
